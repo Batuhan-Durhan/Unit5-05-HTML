@@ -26,25 +26,25 @@
 
   if (sidea <= 0 || sideb <= 0 || sidec <= 0 ) {
   document.getElementById("side").innerHTML =
-  "Somthing went wrong..."
+  "Error..."
   console.log("error")
   } else {
 
     if (sidea == sideb && sideb == sidec && sidec == sidea) {
     document.getElementById("side").innerHTML =
-    "Your triangle is an equilateral"
+    "Equilateral"
     console.log("equilateral")
     } else if (sidea == sideb || sideb == sidec || sidec == sidea) {
     document.getElementById("side").innerHTML =
-    "Your triangle is an isosceles"
+    "Isosceles"
     console.log("side")
     } else if (sidea != sideb && sideb != sidec && sidec != sidea) {
     document.getElementById("side").innerHTML =
-    "Your triangle is an scalene"
+    "Scalene"
     console.log("side")
     } else {
     document.getElementById("side").innerHTML =
-    "Somthing went wrong..."
+    "Error..."
     console.log("error")
 
     }
