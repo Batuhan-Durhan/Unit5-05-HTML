@@ -10,8 +10,8 @@
  * Check service worker.
  */
  if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-UNIT-5-04-HTML/sw.js", {
-    scope: "/ICS2O-UNIT-5-04-HTML/",
+  navigator.serviceWorker.register("/ICS2O-UNIT-5-05-HTML/sw.js", {
+    scope: "/ICS2O-UNIT-5-05-HTML/",
   })
 }
 
@@ -32,16 +32,16 @@
 
     if (sidea == sideb && sideb == sidec && sidec == sidea) {
     document.getElementById("side").innerHTML =
-    "Equilateral"
+    "Equilateral Triangle"
     console.log("equilateral")
     } else if (sidea == sideb || sideb == sidec || sidec == sidea) {
     document.getElementById("side").innerHTML =
-    "Isosceles"
-    console.log("side")
+    "Isosceles Triangle"
+    console.log("isosceles")
     } else if (sidea != sideb && sideb != sidec && sidec != sidea) {
     document.getElementById("side").innerHTML =
-    "Scalene"
-    console.log("side")
+    "Scalene Triangle"
+    console.log("scalene")
     } else {
     document.getElementById("side").innerHTML =
     "Error..."
