@@ -20,7 +20,8 @@
  */
 
 /**JSDoc
-*/function myButtonClicked() {
+*/
+function myButtonClicked() {
   
   const sidea = parseInt(document.getElementById('side-a').value)
   const sideb = parseInt(document.getElementById('side-b').value)
